@@ -9,7 +9,7 @@ if(BMI>0):
 		print("you must gain your wieght to look fit")
 	elif(BMI<=18.5):
 		print("\nyou are underweight")
-		print("we suggest you  to gain your weight ")
+		print("we suggest you to gain your weight ")
 	elif(BMI<=25):
 		print(" \ncongratulations!! you are Healthy")
 	elif(BMI<=30):
