@@ -2,7 +2,7 @@ Height=float(input("Enter your height in centimeter:"))
 Weight=float(input("Enter your Weight in Kilogram:"))
 Height=Height/100
 BMI=Weight/(Height*Height)
-print("your Body Mass Index(BMI) is:",BMI)
+print("your Body Mass Index(BMI) is:%d",BMI)
 if(BMI>0):
 	if(BMI<=16):
 		print("\nyou are severely underweight")
